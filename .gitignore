@@ -1,0 +1,34 @@
+# ---- OSごとの不要ファイル ----
+.DS_Store
+Thumbs.db
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
+*.iws
+
+# ---- Java / Maven / Gradle ----
+target/             # Maven の出力ディレクトリ
+build/              # Gradle の出力ディレクトリ
+out/                # コンパイル出力
+
+# ---- ログ・キャッシュ ----
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ---- 環境変数や設定ファイル（必要に応じて） ----
+.env
+.env.*
+
+# ---- JARファイルなど ----
+*.jar
+*.war
+*.ear
+
+# ---- macOSのゴミファイル ----
+__MACOSX/
+
+# ---- Docker 関連（使っていれば）----
+docker-compose.override.yml
